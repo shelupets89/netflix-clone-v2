@@ -1,5 +1,6 @@
 {
-  "netflix.banner.title": "Movie Name",
-  "netflix.banner.btn_play": "Play",
-  "netflix.banner.btn_list": "My List"
+    "netflix.banner.title": "Movie Name",
+    "netflix.banner.btn_play": "Play",
+    "netflix.banner.btn_list": "My List",
+    "netflix.banner.description": "some test description some testsome test description some testsome test description some testsome test description some testsome test description some testsome test description some testsome test description some testsome test description some testsome test description some testsome test description some testsome test description some testsome test description some testsome test description some testsome test description some test description some test description"
 }

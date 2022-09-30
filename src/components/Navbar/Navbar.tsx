@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { netflixAvatar, netflixLogoBig } from '../../constants/links'
+import { NFX_LOGO_AVATAR, NFX_LOGO_BIG } from '../../constants/links'
 import './Navbar.scss'
 
 const Navbar = () => {
@@ -21,8 +21,8 @@ const Navbar = () => {
   return (
     <div className={`nav ${show && 'nav_black'}`}>
       <div className='nav__contents'>
-        <img className='nav__logo' src={netflixLogoBig} alt='netflix logo' />
-        <img className='nav__avatar' src={netflixAvatar} alt='netflix avatar' />
+        <img className='nav__logo' src={NFX_LOGO_BIG} alt='netflix logo' />
+        <img className='nav__avatar' src={NFX_LOGO_AVATAR} alt='netflix avatar' />
       </div>
     </div>
   )
