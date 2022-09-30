@@ -23,7 +23,9 @@ const Banner = () => {
           <button className='banner__btn'>{t('btn_play')}</button>
           <button className='banner__btn'>{t('btn_list')}</button>
         </div>
-        <h1 className='banner__description'>{elipsis('some test description', 5)}</h1>
+        <h1 className='banner__description'>
+          {elipsis('some test description', 5)}
+        </h1>
       </div>
 
       <div className='banner--fadeBottom' />

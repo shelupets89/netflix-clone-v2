@@ -10,8 +10,7 @@
         "plugin:@typescript-eslint/recommended",
         "prettier"
     ],
-    "overrides": [
-    ],
+    "overrides": [],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -24,16 +23,20 @@
         "prettier"
     ],
     "rules": {
+        "@typescript-eslint/no-explicit-any": "off",
         "react/react-in-jsx-scope": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
         "camelcase": "error",
         "spaced-comment": "error",
-        "quotes": ["error", "single"],
+        "quotes": [
+            "error",
+            "single"
+        ],
         "no-duplicate-imports": "error"
     },
     "settings": {
         "import/resolver": {
-          "typescript": {}
+            "typescript": {}
         }
-      }
+    }
 }
