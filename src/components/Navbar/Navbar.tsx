@@ -22,7 +22,11 @@ const Navbar = () => {
     <div className={`nav ${show && 'nav_black'}`}>
       <div className='nav__contents'>
         <img className='nav__logo' src={NFX_LOGO_BIG} alt='netflix logo' />
-        <img className='nav__avatar' src={NFX_LOGO_AVATAR} alt='netflix avatar' />
+        <img
+          className='nav__avatar'
+          src={NFX_LOGO_AVATAR}
+          alt='netflix avatar'
+        />
       </div>
     </div>
   )
