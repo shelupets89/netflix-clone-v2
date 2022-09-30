@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.scss'
 import HomeScreen from './Screens/HomeScreen'
 
 const App = () => {
