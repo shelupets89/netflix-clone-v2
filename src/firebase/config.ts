@@ -1,8 +1,8 @@
 export const firebaseConfig = {
-  apiKey: 'AIzaSyBsEC6lyHMYEfY7P2hZuXWbiKWF_ytTchs',
-  authDomain: 'netflix-clone-e9c0b.firebaseapp.com',
-  projectId: 'netflix-clone-e9c0b',
-  storageBucket: 'netflix-clone-e9c0b.appspot.com',
-  messagingSenderId: '884345593681',
-  appId: '1:884345593681:web:c8e37610e59fa9c442bd70',
+  apiKey: process.env.REACT_APP_GFB_KEY as string,
+  authDomain: process.env.REACT_APP_GFB_DOMAIN as string,
+  projectId: process.env.REACT_APP_GFB_PROJECT_ID as string,
+  storageBucket: process.env.REACT_APP_GFB_BUCKET as string,
+  messagingSenderId: process.env.REACT_APP_GFB_SENDER_ID as string,
+  appId: process.env.REACT_APP_GFB_APP_ID as string,
 }
