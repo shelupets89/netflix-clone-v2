@@ -1,0 +1,54 @@
+@import "../../utils/variables";
+
+.banner {
+    position: relative;
+    height: 448px;
+    color: $base-white;
+    object-fit: contain;
+
+    .banner__content {
+        margin-left: 30px;
+        padding-top: 150px;
+        height: 190px;
+
+        .banner__buttons {
+            .banner__btn {
+                cursor: pointer;
+                color: $base-white;
+                outline: none;
+                border: none;
+                font-weight: 700;
+                border-radius: 0.2vw;
+                padding: 0.5rem 2rem;
+                margin-right: 1rem;
+                background-color: $btn-dark;
+            }
+
+            .banner__btn:hover {
+                color: $base-dark;
+                background-color: $base-white;
+                transition: all 0.2s;
+            }
+        }
+
+        .banner__title {
+            font-size: 3rem;
+            font-weight: 800;
+            padding-bottom: 0.3rem;
+        }
+
+        .banner__description {
+            width: 45rem;
+            height: 80px;
+            min-width: 360px;
+            line-height: 1.3;
+            padding-top: 1rem;
+            font-size: 0.8rem;
+        }
+    }
+
+    .banner--fadeBottom {
+        height: 7.4rem;
+        background-image: linear-gradient(180deg, transparent, $base-dark, $gradient-dark);
+    }
+}
