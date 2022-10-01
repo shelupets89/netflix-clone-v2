@@ -9,7 +9,7 @@ type Props = {
 
 const RowItem = ({ movie, isLargeRow }: Props) => {
     return (
-        <img src={isLargeRow ? movie.backdrop_path : movie.poster_path} alt={movie.original_name} />
+        <img className={`rowItem__poster ${isLargeRow && 'rowItem__posterLarge'}`} src={isLargeRow ? movie.backdrop_path : movie.poster_path} alt={movie.original_name} />
     )
 }
 
