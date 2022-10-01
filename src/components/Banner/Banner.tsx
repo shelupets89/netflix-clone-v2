@@ -14,16 +14,18 @@ const Banner = () => {
   const [movie, setMovie] = useState<Movie>()
   const title = movie?.name || movie?.original_name
   const description = elipsis(movie?.overview, 150)
-  const backgroundImage = `url(${movie?.poster_path})`;
+  const backgroundImage = `url(${movie?.poster_path})`
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const request = await axios.get(requests.fetchNetflixOriginals.path, { params: requests.fetchNetflixOriginals.params })
-        const dataArr = request.data.results;
+        const request = await axios.get(requests.fetchNetflixOriginals.path, {
+          params: requests.fetchNetflixOriginals.params,
+        })
+        const dataArr = request.data.results
         const randomIndex = Math.floor(Math.random() * dataArr.length - 1)
-        const resMovie: Movie = dataArr.at(randomIndex) as Movie;
-        const poster_path = `${IMG_URI_TMDB}${resMovie.poster_path}` as string;
+        const resMovie: Movie = dataArr.at(randomIndex) as Movie
+        const poster_path = `${IMG_URI_TMDB}${resMovie.poster_path}` as string
         setMovie({ ...resMovie, poster_path })
         return request
       } catch (error) {
@@ -32,7 +34,6 @@ const Banner = () => {
     }
     fetchData()
   }, [])
-
 
   return (
     <header
@@ -48,9 +49,7 @@ const Banner = () => {
           <button className='banner__btn'>{t('btn_play')}</button>
           <button className='banner__btn'>{t('btn_list')}</button>
         </div>
-        <h1 className='banner__description'>
-          {description}
-        </h1>
+        <h1 className='banner__description'>{description}</h1>
       </div>
 
       <div className='banner--fadeBottom' />
