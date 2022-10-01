@@ -1,7 +1,6 @@
 /* eslint-disable camelcase */
 import React, { useEffect, useState } from 'react'
 import axios from '../../api/axios'
-import { IMG_URI_TMDB } from '../../constants/api'
 import Genres from '../../enums/Genres'
 import TitleKeys from '../../enums/TitleKeys'
 import useTranslation from '../../hooks/useCustomTranslation'
