@@ -1,7 +1,16 @@
 @import "../../utils/variables";
 
 .row {
-    .row__title {
-        color: $base-white;
+    color: $base-white;
+    margin-left: 20px;
+
+    .row__posters {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+
+    .row__posters::-webkit-scrollbar {
+        display: none;
     }
 }
