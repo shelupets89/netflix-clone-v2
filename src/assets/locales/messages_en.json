@@ -1,12 +1,12 @@
 {
-    "netflix.banner.btn_play": "Play",
-    "netflix.banner.btn_list": "My List",
-    "netflix.row.trending": "Trending Now",
-    "netflix.row.originals": "Netflix Originals",
-    "netflix.row.top_rated": "Top Rated",
-    "netflix.row.action": "Action Movies",
-    "netflix.row.comedy": "Comedy Movies",
-    "netflix.row.horror": "Horror Movies",
-    "netflix.row.romance": "Romance Movies",
-    "netflix.row.documentaries": "Documentaries Movies"
+  "netflix.banner.btn_play": "Play",
+  "netflix.banner.btn_list": "My List",
+  "netflix.row.trending": "Trending Now",
+  "netflix.row.originals": "Netflix Originals",
+  "netflix.row.top_rated": "Top Rated",
+  "netflix.row.action": "Action Movies",
+  "netflix.row.comedy": "Comedy Movies",
+  "netflix.row.horror": "Horror Movies",
+  "netflix.row.romance": "Romance Movies",
+  "netflix.row.documentaries": "Documentaries Movies"
 }

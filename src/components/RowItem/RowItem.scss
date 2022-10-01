@@ -1,5 +1,18 @@
+@import "../../utils/variables";
+
 .rowItem__poster {
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    width: 100%;
+    transition: transform 450ms;
+}
+
+.rowItem__poster:hover {
+    opacity: 1;
+    transform: scale(1.08);
 }
 
 .rowItem__posterLarge {
+    max-height: 250px;
 }
