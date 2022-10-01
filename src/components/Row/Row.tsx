@@ -31,19 +31,7 @@ const Row = ({ title, fetchUri, fetchParams }: Props) => {
           params: fetchParams,
         })
         const dataMovies = request.data.results
-        const res = dataMovies.map((item: Movie) => {
-          let poster_path = `${IMG_URI_TMDB}${item.poster_path}` as string
-          let backdrop_path = `${IMG_URI_TMDB}${item.backdrop_path}` as string
-
-          if (!item.backdrop_path) {
-            backdrop_path = ''
-          }
-          if (!item.poster_path) {
-            poster_path = ''
-          }
-          return { ...item, poster_path, backdrop_path }
-        })
-        setMovies(res)
+        setMovies(dataMovies)
         return request
       } catch (error) {
         console.error(error)
