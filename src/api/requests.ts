@@ -12,42 +12,42 @@ const requests = {
   fetchTrending: {
     path: '/trending/all/week',
     params: { api_key, language },
-    titleKey: TitleKeys.trending
+    titleKey: TitleKeys.trending,
   },
   fetchNetflixOriginals: {
     path: '/discover/tv',
     params: { api_key, with_networks: 213, language },
-    titleKey: TitleKeys.originals
+    titleKey: TitleKeys.originals,
   },
   fetchTopRated: {
     path: '/movie/top_rated',
     params: { api_key, language },
-    titleKey: TitleKeys.top_rated
+    titleKey: TitleKeys.top_rated,
   },
   fetchActionMovies: {
     path: '/discover/movie',
     params: { api_key, with_genres: Genres.action, language },
-    titleKey: TitleKeys.action
+    titleKey: TitleKeys.action,
   },
   fetchComedyMovies: {
     path: '/discover/movie',
     params: { api_key, with_genres: Genres.comedy, language },
-    titleKey: TitleKeys.comedy
+    titleKey: TitleKeys.comedy,
   },
   fetchHorrorMovies: {
     path: '/discover/movie',
     params: { api_key, with_genres: Genres.horror, language },
-    titleKey: TitleKeys.horror
+    titleKey: TitleKeys.horror,
   },
   fetchRomanceMovies: {
     path: '/discover/movie',
     params: { api_key, with_genres: Genres.romance, language },
-    titleKey: TitleKeys.romance
+    titleKey: TitleKeys.romance,
   },
   fetchDocumentariesMovies: {
     path: '/discover/movie',
     params: { api_key, with_genres: Genres.documentaries, language },
-    titleKey: TitleKeys.documentaries
+    titleKey: TitleKeys.documentaries,
   },
 }
 
