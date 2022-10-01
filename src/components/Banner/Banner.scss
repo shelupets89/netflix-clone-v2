@@ -32,6 +32,8 @@
         }
 
         .banner__title {
+            width: 45rem;
+            min-width: 360px;
             font-size: 3rem;
             font-weight: 800;
             padding-bottom: 0.3rem;
@@ -49,6 +51,6 @@
 
     .banner--fadeBottom {
         height: 7.4rem;
-        background-image: linear-gradient(180deg, transparent, $base-dark, $gradient-dark);
+        background: linear-gradient(0deg, $base-dark 0%, $base-dark-transparent 100%);
     }
 }
