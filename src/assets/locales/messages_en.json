@@ -8,5 +8,13 @@
   "netflix.row.comedy": "Comedy Movies",
   "netflix.row.horror": "Horror Movies",
   "netflix.row.romance": "Romance Movies",
-  "netflix.row.documentaries": "Documentaries Movies"
+  "netflix.row.documentaries": "Documentaries Movies",
+  "netflix.login.sign_in": "Sign In",
+  "netflix.login.title": "Unlimited movies, TV shows, and more.",
+  "netflix.login.subtitle": "Watch anywhere. Cancel anytime.",
+  "netflix.login.sub_subtitle": "Ready to watch? Enter your email to create or restart your membership.",
+  "netflix.login.input_placeholder": "Email address",
+  "netflix.login.input_btn": "Get Started"
+
+
 }
