@@ -9,15 +9,15 @@ const language = 'en-US'
 const api_key = API_KEY
 
 const requests = {
-  fetchTrending: {
-    path: '/trending/all/week',
-    params: { api_key, language },
-    titleKey: TitleKeys.trending,
-  },
   fetchNetflixOriginals: {
     path: '/discover/tv',
     params: { api_key, with_networks: 213, language },
     titleKey: TitleKeys.originals,
+  },
+  fetchTrending: {
+    path: '/trending/all/week',
+    params: { api_key, language },
+    titleKey: TitleKeys.trending,
   },
   fetchTopRated: {
     path: '/movie/top_rated',
