@@ -1,9 +1,10 @@
 import React from 'react'
 import HomeScreen from './Screens/HomeScreen'
+import './App.scss'
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='app'>
       <HomeScreen />
     </div>
   )
