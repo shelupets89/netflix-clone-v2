@@ -1,0 +1,53 @@
+@import "../../constants/variables";
+
+.loginScreen_body {
+    position: absolute;
+    top: 30%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    color: $base-white;
+    padding: 20px;
+
+    h1 {
+        font-size: 3.125rem;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        font-weight: 400;
+        padding: 0 5%; 
+    }
+
+    .loginScreen_input {
+        margin-top: 20px;
+        form {
+            input {
+                padding: 10px;
+                outline-width: 0;
+                height: 30px;
+                width: 30%;
+                border: none;
+                max-width: 600px;
+            }
+
+            .loginScreen_btn {
+                padding: 16px 20px;
+                font-size: 1rem;
+                color: $base-white;
+                background-color: $base-red;
+                border: none;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+    }
+}
